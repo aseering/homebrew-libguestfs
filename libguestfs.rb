@@ -2,7 +2,7 @@ class Libguestfs < Formula
   homepage "http://libguestfs.org/"
 
   stable do
-    url "http://libguestfs.org/download/1.28-stable/libguestfs-1.30.1.tar.gz"
+    url "http://libguestfs.org/download/1.32-stable/libguestfs-1.32.6.tar.gz"
     sha256 "bcdea7c9acf0fca87559dccd37ab6f2e523215be79c899f5c6c413e80d46cc06"
 
     patch do
