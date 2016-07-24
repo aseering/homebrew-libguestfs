@@ -82,6 +82,7 @@ class Libguestfs < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
+  depends_on "truncate" => :build
   # Most dependencies are listed in http://libguestfs.org/README.txt
   depends_on "qemu"
   depends_on "xz"
@@ -92,7 +93,6 @@ class Libguestfs < Formula
   depends_on "cdrtools"
   depends_on "augeas"
   depends_on "pcre"
-  depends_on "truncate"
   depends_on :osxfuse
 
   # Bindings & tools
